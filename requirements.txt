@@ -1,0 +1,7 @@
+# Raspberry Pi gateway (raspberry_pi/parking_gateway.py)
+opencv-python>=4.5
+numpy>=1.21
+pyserial>=3.5
+RPi.GPIO>=0.7 ; platform_machine == "aarch64" or platform_machine == "armv7l"
+# Raspberry Pi 5: RPi.GPIO does not support it - install the drop-in replacement instead:
+#   pip install rpi-lgpio
