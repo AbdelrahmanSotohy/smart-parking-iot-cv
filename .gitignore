@@ -1,0 +1,35 @@
+   # Python
+   __pycache__/
+   *.py[cod]
+   .venv/
+   venv/
+   env/
+   *.egg-info/
+
+   # Generated calibration baseline (camera/lighting specific; regenerate with C + S)
+   *.npz
+
+   # Recordings and captures
+   *.mp4
+   *.avi
+   *.mov
+   captures/
+   recordings/
+
+   # Arduino / PlatformIO build output
+   build/
+   .pio/
+   *.hex
+   *.elf
+   *.bin
+
+   # Editors and OS files
+   .vscode/
+   .idea/
+   *.swp
+   .DS_Store
+   Thumbs.db
+
+   # Local secrets (if a network layer is added later)
+   .env
+   secrets.*
